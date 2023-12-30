@@ -22,6 +22,5 @@ async def on_message(message):
     if message.content.startswith('pdf'):
         await message.channel.send(file = discord.File("trial3.pdf"))
 
-token = "MTE5MDMzMzQ1MTIxMjE2OTMxNg.GFw_qO.hYalzgv3T4ixSH6GPa5vKWW_h8SuJktZWJ2sk8"
+token = "Enter_your_token_here"
 client.run(token)
- 
